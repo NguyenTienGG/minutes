@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#44a8d6"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:textColor="#041575"
+        android:text="How many  Minutes" />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#be65e3"
+        android:padding="10dp"
+        android:textSize="32dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:textColor="#000"
+        android:text="Have You Live" />
+
+    <Button
+        android:id="@+id/btndate"
+        android:textColor="#f8e00d"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#e70000"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click select born" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:textColor="#041575"
+        android:text="01/01/1999" />
+    <TextView
+        android:id="@+id/txtDateSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="#041575"
+        android:text="time" />
+    <TextView
+        android:id="@+id/txtAgeInMinute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:padding="10dp"
+        android:background="#ffc107"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        android:text="time in live" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:padding="10dp"
+        android:background="#ffc107"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        android:text="Minutes" />
+</LinearLayout>
